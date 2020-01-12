@@ -1,2 +1,2 @@
 # profile
-my frontend dev profile
+This is a webpage with a presentation of me
