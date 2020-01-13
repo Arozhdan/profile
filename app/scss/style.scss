@@ -1,8 +1,15 @@
 @import "vars";
 @import "libs";
 @import "fonts";
+@import "modules";
 
 
+// importing blocks
+@import "blocks/header";
+@import "blocks/about";
+
+
+@import "global";
 
 
 

@@ -1,0 +1,37 @@
+.header {
+  background-image: url("../img/cover.jpg");
+  background-position: 50% 2%;
+  background-size: cover;
+}
+.header-cover{
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgba($color: #333333, $alpha: 0.6);
+}
+
+.header-content {
+  z-index: 100;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+
+}
+
+.header-content__title {
+  letter-spacing: 1px;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.header-content__span {
+  font-size: 50px;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 100%;
+  font-weight: 700;
+}

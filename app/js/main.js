@@ -1,6 +1,5 @@
-$(function(){
+$(function () {
+  AOS.init()
 
 
-
-  
 });
