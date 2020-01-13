@@ -1,0 +1,70 @@
+.services{
+  padding-top: 100px;
+  padding-bottom: 300px;
+}
+.services-description {
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+}
+
+.services-list-wrapper {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.services-list-item {
+  width: 350px;
+  background-color: #f5f5f5;
+  padding: 120px 10px 25px;
+  letter-spacing: 1.2px;
+  line-height: 1.4;
+
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+.services-list-item-text{
+  font-weight: 300;
+  font-size: 14px;
+}
+.services-list-item-title {
+  position: relative;
+  font-weight: 700;
+  color: #222222;
+  margin-bottom: 10px;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: -85px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 60px;
+    background-color: #333333;
+  }
+}
+
+.services-list-item-title__1:before {
+  background: url("../../img/html.svg");
+  background-size: 100%;
+
+
+}
+.services-list-item-title__2:before {
+  background: url("../../img/css.svg");
+  background-size: 100%;
+
+}
+.services-list-item-title__3:before {
+  background: url("../../img/script.svg");
+  background-size: 100%;
+
+}
+.services-list-item-title__4:before {
+  background: url("../../img/problem.svg");
+  background-size: 100%;
+
+}

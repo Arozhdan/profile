@@ -1,4 +1,56 @@
 .about {
   background-color: #f5f5f5;
   padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+.about-photos {
+
+  text-align: center;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-photos-item {
+  overflow: hidden;
+  box-shadow: 0 10px 15px -10px;
+
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+  cursor: pointer;
+
+  &:hover .about-photos-item__title {
+    background-color: #333333;
+    color: #ffffff;
+  }
+}
+
+.about-photos-item__photo {
+  display: block;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 300px;
+
+}
+
+.about-photos-item__title {
+  background-color: rgb(238, 238, 238);
+  transition: all 0.4s;
+  padding: 15px;
+}
+
+.about-photos-item__avatar .about-photos-item__photo {
+  background-image: url(../../img/avatar.jpg);
+}
+
+.about-photos-item__prague .about-photos-item__photo {
+  background-image: url(../../img/prague.jpg);
+}
+
+.about-photos-item__spain .about-photos-item__photo {
+  background-image: url(../../img/spain.jpg);
 }

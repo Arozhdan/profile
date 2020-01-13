@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Baibussynov Arozhdan</title>
-  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.min.css">
 
 
@@ -17,7 +17,7 @@
     <div class="header-cover">
       <div class="container">
         <div class="header-content ">
-          <h1 class="header-content__title " data-aos="fade-up" data-aos-duration="350">Hello, my name is Baibussynov
+          <h1 class="header-content__title " data-aos="fade-up">Hello, my name is Baibussynov
             Arozhdan and I am
             <span class="header-content__span">
               Frontend web developer
@@ -27,32 +27,90 @@
         </div>
       </div>
     </div>
+    <div class="header-scroll">
+      <img src="img/arrow-down.svg" alt="" class="header-down">
+    </div>
   </header>
+  <nav class="nav " id="sticky">
+    <div class="container">
+      <div class="nav-content">
+        <a href="#" class="nav-brand">Arozhdan</a>
+        <ul class="nav-right">
+          <li><a class="nav-link" href="#">Home</a></li>
+          <li><a class="nav-link" href="#">About me</a></li>
+          <li><a class="nav-link" href="#">Services</a></li>
+          <li><a class="nav-link" href="#">Skills</a></li>
+          <li><a class="nav-link" href="#">Testimonials</a></li>
+          <li><a class="nav-link" href="#">Contacts</a></li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
   <main>
     <section class="about">
       <div class="container">
-        <div class="description"  data-aos="fade-down-right">
-          <h2 class="description-title" >Who am I? </h2>
+        <div class="description" data-aos="fade-down-right">
+          <h2 class="description-title">Who am I ? </h2>
           <p class="description-text">You can call me Arik.
             I' ve startd doing web about 2 years ago, got Informatics degree at CULS university . Originally I am from
             Kazakhstan, had studied in Czeck Republic for three years, and now I live and study in Spain) </p>
         </div>
         <div class="about-photos">
-          <div class="about-photos-item about-photos-item__avatar">
-            <div class="about-photos-item__photo"></img>
-              <p class="about-photos-item__title">Great mirror photo!<i class="far fa-laugh"></i></p>
-            </div>
-            <div class="about-photos-item about-photos-item__prague">
-              <div class="about-photos-item__photo"></img>
-                <p class="about-photos-item__title">First year in Prague!</p>
-              </div>
-            </div>
-            <div class="about-photos-item about-photos-item__spain">
-              <div class="about-photos-item__photo"></img>
-                <p class="about-photos-item__title">Moved to Spain!</p>
-              </div>
+          <div class="about-photos-item about-photos-item__avatar" data-aos="flip-left" data-aos-delay="200">
+            <div class="about-photos-item__photo"></div>
+            <p class="about-photos-item__title">Great mirror photo!</p>
+          </div>
+
+          <div class="about-photos-item about-photos-item__prague" data-aos="fade-up">
+            <div class="about-photos-item__photo"></div>
+            <p class="about-photos-item__title">First year in Prague!</p>
+          </div>
+
+          <div class="about-photos-item about-photos-item__spain" data-aos="flip-right" data-aos-delay="400">
+            <div class="about-photos-item__photo"></div>
+            <p class="about-photos-item__title">Moved to Spain!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services">
+      <div class="container">
+        <div class="description services-description" data-aos="fade-down-left">
+          <h2 class="description-title">How can I help you </h2>
+          <p class="description-text">You need a fast, reliable modern web-site?.
+            Then just contact me anytime you can. There is a list of my services: </p>
+        </div>
+        <div class="services-list-wrapper">
+          <div class="services-list-item" data-aos="fade-right" data-aos-duration="500">
+            <div class="services-list-item-title services-list-item-title__1">HTML/CSS</div>
+            <div class="services-list-item-text">Deep knowledge in theese two basics of web-development and their
+              libraries!</div>
+          </div>
+          <div class="services-list-item" data-aos="fade-right" data-aos-duration="500">
+            <div class="services-list-item-title services-list-item-title__2">SCSS/SASS</div>
+            <div class="services-list-item-text">Making development faster, more comfortable and easy to understand!
             </div>
           </div>
+          <div class="services-list-item" data-aos="fade-left" data-aos-duration="500">
+            <div class="services-list-item-title services-list-item-title__3">JavaScript</div>
+            <div class="services-list-item-text">Helps to make your web application more interactive! Some experience in
+              JQ, Vue.js, NodeJS </div>
+          </div>
+          <div class="services-list-item" data-aos="fade-left" data-aos-duration="500">
+            <div class="services-list-item-title services-list-item-title__4">Consultations</div>
+            <div class="services-list-item-text">You need some help? Free consultations for you anytime!</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="portfolio">
+      <div class="container">
+        <div class="description portfolio-description" data-aos="zoom-in">
+          <h2 class="description-title">MY WORKS </h2>
+          <p class="description-text">In this section I'd like to represent some of my works!  </p>
+        </div>
+      </div>
     </section>
   </main>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"

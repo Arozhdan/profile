@@ -1,0 +1,32 @@
+.nav-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  a{
+    color: inherit;
+  }
+}
+.nav-brand{
+  font-weight: 700;
+  cursor: pointer;
+}
+.nav-right{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  
+
+}
+.nav-link{
+  padding-left: 10px;
+  padding-right: 10px;
+
+  font-size: 14px;  
+  text-transform: uppercase;
+  font-weight: 300;
+  &:hover{
+    font-weight: 500;
+    color: #ffa805;
+  }
+}

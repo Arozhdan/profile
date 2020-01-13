@@ -22,9 +22,19 @@
       background-color: rgba(102, 102, 102, 0.5);
     }
   }
-  .description-text{
+
+  .description-text {
     letter-spacing: 1.85;
     line-height: 1.7;
     margin-top: 30px;
   }
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 150;
 }

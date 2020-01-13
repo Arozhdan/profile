@@ -3,13 +3,16 @@
   background-position: 50% 2%;
   background-size: cover;
 }
-.header-cover{
+
+.header-cover {
   display: flex;
+  position: relative;
 
   flex-direction: column;
   justify-content: center;
   height: 100vh;
   background-color: rgba($color: #333333, $alpha: 0.6);
+
 }
 
 .header-content {
@@ -17,6 +20,7 @@
   text-align: center;
   width: 70%;
   margin: 0 auto;
+
 
 }
 
@@ -34,4 +38,34 @@
   display: inline-block;
   width: 100%;
   font-weight: 700;
+}
+.header-scroll{
+  cursor: pointer;
+  animation: arr 2s ;
+  animation-iteration-count: infinite;
+}
+
+.header-down {
+  position: absolute;
+  width: 50px;
+  padding: 15px;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  border-radius: 50%;
+
+
+}
+
+
+
+@keyframes arr {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
