@@ -1,0 +1,30 @@
+.start{
+  text-align: center;
+  padding: 80px 0 60px;
+  background-image: url(../img/item-3.jpg);
+  color: #ffffff;
+
+}
+.start-title{
+  margin-bottom: 25px;
+  text-align: center;
+}
+.start-text{
+  letter-spacing: 1.3px;
+  font-weight: 300;
+  padding-bottom: 80px;
+}
+.start-btn{
+  text-transform: uppercase;
+  border: none;
+  background-color: #f5f5f5;
+  padding: 8px 17px;
+  border-radius: 5px;
+  cursor: pointer;
+  &:hover{
+    background-color:#fff ;
+  }
+  &:active,&:focus{
+    outline: none;
+  }
+}

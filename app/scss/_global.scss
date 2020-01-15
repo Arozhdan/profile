@@ -10,6 +10,9 @@ body{
   font-weight: 400;
   color: #666;
 }
+ input, textarea{
+  outline: none;
+}
 *,
 *:after,
 *:before{
@@ -30,4 +33,5 @@ a{
 ul,li{
   margin: 0;
   padding: 0;
+  list-style: none;
 }

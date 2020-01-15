@@ -1,0 +1,61 @@
+.clients {
+  padding-top: 150px;
+  background-color: #f5f5f5;
+  margin-top: 150px;
+}
+
+.feedbacks-wrapper {
+  margin-top: 100px;
+  position: relative;
+  padding-bottom: 150px;
+}
+
+.feedback-container {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.feedback-text {
+  width: 60%;
+}
+
+.feedback-photo {
+  width: 20%;
+}
+
+.feedback-photo img {
+  display: inline-block;
+}
+
+.slick-prev,
+.slick-next {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 25px;
+  padding: 20px;
+  font-weight: 30;
+
+  &:hover {
+    color: rgb(107, 34, 1);
+  }
+}
+
+.slick-prev {
+  z-index: 5;
+  top: 0;
+  left: 20px;
+}
+
+.slick-next {
+  top: 0;
+  left: 55px;
+}
+
+.slick-slide:focus {
+  outline: none;
+}

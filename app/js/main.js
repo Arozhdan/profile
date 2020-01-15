@@ -9,6 +9,12 @@ $(function () {
       },
       'slow');
   });
+  $(".start-btn").click(function () {
+    $('html,body').animate({
+        scrollTop: $(".message-form").offset().top
+      },
+      'slow');
+  });
 
   window.onscroll = function () {
     myFunction()
@@ -23,6 +29,16 @@ $(function () {
       $("#sticky").first().removeClass("fixed");
     }
   }
-
+  $('.feedbacks-wrapper').slick({
+    dots: false,
+    infinite: true,
+    speed: 500,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    slidesToShow: 1,
+    adaptiveHeight: true
+  })
+  $('.slick-next').text('>')
+  $('.slick-prev').text('<')
 
 });
