@@ -42,3 +42,17 @@
   color: rgb(107, 34, 1);
 }
 
+.portfolio-more{
+  display: block;
+  max-width: 250px;
+  padding: 15px 25px;
+  margin: 0 auto;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  border-radius: 5px;
+  &:hover{
+    box-shadow: -20px -20px 85px 1px rgb(189, 188, 188);
+  }
+}

@@ -1,0 +1,34 @@
+.work-header{
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.work-nav{
+  background-color: #fff;
+  z-index: 1;
+}
+.work-intro{
+  margin-bottom: 150px;
+}
+.work-intro-img{
+  float: left;
+  width: 45%;
+  margin: 10px;
+}
+.work-image-wrapper{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+.work-image{
+  width: 25%;
+}
+.work-nextArr{
+  font-weight: 700;
+  top: -70px;
+  left: 80px;
+}
+.work-prevArr{
+  font-weight: 700;
+  top: -70px;
+}
