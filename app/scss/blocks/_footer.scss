@@ -1,7 +1,7 @@
 .footer{
   padding-top: 50px;
   background-color: #222222;
-  padding-bottom: 50px;
+  margin-bottom: 0;
 }
 .footer-social{
   img{
@@ -13,7 +13,7 @@
     &:hover{
       transform: translateY(-4px);
       background-color: #fff;
-      box-shadow: 0 0 25px 15px rgba(255, 255, 255, 0.534);
+      box-shadow: 0 0 15px 15px rgba(255, 255, 255, 0.534);
     }
     
   }
@@ -21,6 +21,7 @@
 .footer-links{
   display: flex;
   margin: 0 auto;
+  padding: 35px 0;
   justify-content: center;
 }
 .footer-social{

@@ -15,20 +15,21 @@ $(function () {
       },
       'slow');
   });
-
+  
   window.onscroll = function () {
     myFunction()
   };
-  const initialOffset = $("#sticky")[0].offsetTop;
+  const initialOffset = $(".sticky")[0].offsetTop;
 
   function myFunction() {
 
     if (window.pageYOffset > initialOffset) {
-      $("#sticky").first().addClass("fixed");
+      $(".sticky").first().addClass("fixed");
     } else {
-      $("#sticky").first().removeClass("fixed");
+      $(".sticky").first().removeClass("fixed");
     }
   }
+
   $('.feedbacks-wrapper').slick({
     dots: false,
     infinite: true,

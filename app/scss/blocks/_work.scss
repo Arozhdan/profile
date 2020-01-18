@@ -3,8 +3,15 @@
   margin-bottom: 200px;
 }
 .work-nav{
-  background-color: #fff;
+  background-color: #222222;
+  color: #ffffff;
   z-index: 1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  .nav-brand{
+    color: #fff !important;
+  }
 }
 .work-intro{
   margin-bottom: 150px;

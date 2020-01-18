@@ -17,7 +17,7 @@
 .services-list-item {
   width: 350px;
   background-color: #f5f5f5;
-  padding: 120px 10px 25px;
+  padding: 120px 25px;
   letter-spacing: 1.2px;
   line-height: 1.4;
 
@@ -26,6 +26,9 @@
   }
 }
 .services-list-item-text{
+  display: inline-block;
+  width: 90%;
+  margin: 0 auto;
   font-weight: 300;
   font-size: 14px;
 }
